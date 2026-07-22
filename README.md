@@ -66,6 +66,6 @@ python bot.py
 
 ## Notas
 
-- El resumen diario se dispara con `APScheduler` usando la zona horaria `America/Argentina/Buenos_Aires`, así que siempre corre a las 9am hora Argentina sin importar dónde esté deployado el servidor.
+- El resumen diario se dispara con `APScheduler` usando la zona horaria `America/Argentina/Buenos_Aires`, así que siempre corre a las 7am hora Argentina sin importar dónde esté deployado el servidor.
 - Si un feed RSS falla o cambia de URL, el bot lo ignora y sigue con los demás.
 - El comando `/news` sirve para pedir el resumen en cualquier momento (útil para testear).

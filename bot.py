@@ -126,7 +126,7 @@ def main() -> None:
     scheduler = AsyncIOScheduler(timezone="America/Argentina/Buenos_Aires")
     scheduler.add_job(
         send_daily_news,
-        trigger=CronTrigger(hour=9, minute=0),
+        trigger=CronTrigger(hour=7, minute=0),
         args=[application],
     )
     scheduler.start()
